@@ -1,0 +1,24 @@
+
+#trafficLight1 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: black;
+    border: 10px solid rgb(73, 70, 70);
+  }
+  #trafficLight2 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: black;
+    vertical-align: middle;
+    border: 10px solid rgb(73, 70, 70);
+  }
+  #trafficLight3 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: black;
+    vertical-align: middle;
+    border: 10px solid rgb(73, 70, 70);
+  }
