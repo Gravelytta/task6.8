@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        h1 {
+        color: #6653d9
+        }
+        header {
+        background-color: #b2ce9f;
+        color: #fff;
+        height: 10rem;
+        padding: 1rem 1.5rem;
+        width: 30rem;
+        border-radius: 10px;
+        }
+        button {
+        background-color: none;
+        color: #6653d9;
+        padding: 1rem 1rem;
+        border-radius: 10px;
+        border:none;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <title>JS-Start. 3 задача</title>
+</head>
+<body>
+    <center>
+    <h1>Задание "Перехват формы"</h1>
+    <header>
+<form action="form" id="form">
+    <label>
+        Текст
+        <input type="text"  required id="textinput" placeholder="Введите текст">
+    </label>
+    <button type="submit">
+        Вывести текст в консоль и удалить из формы
+    </button>
+</form>
+<hr>
+<p>Введенный текст:</p>
+<p id="duplicateField"></p>
+<script src="script.js"></script>
+</header>
+</center>
+</body>
+</html>
